@@ -1,0 +1,70 @@
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s linear;
+    transition: width 0.1s linear;
+    background-color:white
+  }
+  input[type=text]:focus {
+    width:50%;
+  }
+ 
+  button{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-color:skyblue
+    };
+  .banner{
+      background-attachment: fixed;
+      border: 50px;
+      border-radius: 5px
+  }
+  body{
+      background-color:white
+  }
+
+  .main{
+    text-align:centre;
+    text-transform:uppercase;
+    padding:50px;
+    background-color:skyblue;
+    font-family: times;
+    text-align: center;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-size: 30px;
+  }
+.outer-div{
+  
+    display: flex;  
+    flex-wrap: wrap;
+  
+}
+.inner-div{
+  background-color:skyblue;
+  text-align: left;
+  text-shadow: center center;
+  font-family: 'Times New Roman', Times, serif;
+  width: 250px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+  font-weight: bold;
+  opacity:0.9
+  
+
+  
+}
